@@ -1,0 +1,904 @@
+{
+    "providers": {
+        "US": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Hulu",
+                "provider_img" : "/img/hulu-logo.png",
+                "provider_jump_img" : "/img/hulu_plus_launch.png",
+                "provider_id": 15
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 9
+            },
+            {
+                "name": "Apple TV",
+                "provider_img" : "/img/apple-tv-logo.png",
+                "provider_jump_img" : "/img/apple_tv_launch.png",
+                "provider_id": 2
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Peacock",
+                "provider_img" : "/img/peacock-logo.png",
+                "provider_jump_img" : "/img/peacock_launch.png",
+                "provider_id": 387
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "GB": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "BBC iPlayer",
+                "provider_img" : "/img/bbciplayer-logo.png",
+                "provider_jump_img" : "/img/bbciplayer_launch.png",
+                "provider_id": 38
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 9
+            },
+            {
+                "name": "Apple TV",
+                "provider_img" : "/img/apple-tv-logo.png",
+                "provider_jump_img" : "/img/apple_tv_launch.png",
+                "provider_id": 2
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            }
+        ],
+        "CA": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV",
+                "provider_img" : "/img/apple-tv-logo.png",
+                "provider_jump_img" : "/img/apple_tv_launch.png",
+                "provider_id": 2
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            }
+        ],
+        "BR": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Globoplay",
+                "provider_img" : "/img/globoplay-logo.png",
+                "provider_jump_img" : "/img/globoplay_launch.png",
+                "provider_id": 307
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "PE": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "CL": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "MX": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "VE": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "AR": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "CO": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "UY": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "DIRECTV GO",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 467
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "EC": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Claro Video",
+                "provider_img" : "/img/clarovideo-logo.png",
+                "provider_jump_img" : "/img/clarovideo_launch.png",
+                "provider_id": 167
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "PY": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "CR": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "GT": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "DO": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "FR": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 119
+            },
+            {
+                "name": "Apple TV",
+                "provider_img" : "/img/apple-tv-logo.png",
+                "provider_jump_img" : "/img/apple_tv_launch.png",
+                "provider_id": 2
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            },
+            {
+                "name": "Max",
+                "provider_img" : "/img/max-logo.png",
+                "provider_jump_img" : "/img/max_launch.png",
+                "provider_id": 1899
+            }
+        ],
+        "DE": [
+            {
+                "name": "Netflix",
+                "provider_img" : "/img/netflix-log.png",
+                "provider_jump_img" : "/img/netflix_launch.png",
+                "provider_id": 8
+            },
+            {
+                "name": "Crunchyroll",
+                "provider_img" : "/img/crunchyroll-logo.png",
+                "provider_jump_img" : "/img/crunchyroll_logo_launch.png",
+                "provider_id": 283
+            },
+            {
+                "name": "Amazon Prime Video",
+                "provider_img" : "/img/amazon-logo.png",
+                "provider_jump_img" : "/img/amazon_launch.png",
+                "provider_id": 9
+            },
+            {
+                "name": "Apple TV",
+                "provider_img" : "/img/apple-tv-logo.png",
+                "provider_jump_img" : "/img/apple_tv_launch.png",
+                "provider_id": 2
+            },
+            {
+                "name": "Apple TV +",
+                "provider_img" : "/img/appletvplus-logo.png",
+                "provider_jump_img" : "/img/appletvplus_launch.png",
+                "provider_id": 350
+            },
+            {
+                "name": "Disney +",
+                "provider_img" : "/img/disneyplus-logo.png",
+                "provider_jump_img" : "/img/disney_plus_launch.png",
+                "provider_id": 337
+            },
+            {
+                "name": "Paramount +",
+                "provider_img" : "/img/paramount-logo.png",
+                "provider_jump_img" : "/img/paramount_plus_launch.png",
+                "provider_id": 531
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "http": {
+    "port": 80
+  },
+  "api": {
+    "tmdb-api-key": "tmdb-api-key",
+    "main-api-url": "main-api-url"
+  },
+  "db": {
+    "username": "username",
+    "password": "password",
+    "port": 3306
+  },
+  "domain": "domain"
+}

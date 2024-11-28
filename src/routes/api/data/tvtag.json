@@ -1,0 +1,82 @@
+{
+    "tags": [
+        {
+            "tag_type": "episode",
+            "tag_date": "2024-09-26T22:51:32.550Z",
+            "program_info": {
+                "program_name": "Phineas and Ferb",
+                "program_episode": "Rollercoaster",
+                "season": 36,
+                "episode": 1,
+                "duration": 30,
+                "flags": {
+                    "new": true,
+                    "premiere": true,
+                    "live": false,
+                    "finale": false
+                },
+                "synopsis": "First episode of Phineas and Ferb, i guess.",
+                "airdate": "2024-09-30T00:00Z",
+                "timings": [
+                    {
+                        "time": "2024-09-30T00:00Z",
+                        "channels": [
+                            {
+                                "time": "2024-09-30T00:00Z",
+                                "callSign": "WNYW",
+                                "num": "5",
+                                "channel_logo": "https://zap2it.tmsimg.com/h3/NowShowing/11746/s10212_ll_h15_ab.png?w=55"
+                            },
+                            {
+                                "time": "2024-09-30T00:00Z",
+                                "callSign": "WNYWDT",
+                                "num": "5",
+                                "channel_logo": "https://zap2it.tmsimg.com/h3/NowShowing/11746/s10212_ll_h15_ab.png?w=55"
+                            },
+                            {
+                                "time": "2024-09-30T00:00Z",
+                                "callSign": "WNYW",
+                                "num": "398",
+                                "channel_logo": "https://zap2it.tmsimg.com/h3/NowShowing/11746/s10212_ll_h15_ab.png?w=55"
+                            },
+                            {
+                                "time": "2024-09-30T00:00Z",
+                                "callSign": "WNYWDT",
+                                "num": "398",
+                                "channel_logo": "https://zap2it.tmsimg.com/h3/NowShowing/11746/s10212_ll_h15_ab.png?w=55"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tag_text": null,
+            "tag_readable": true,
+            "tag_image": "/img/tvtagtest1.png",
+            "tag_comments": 45,
+            "tag_emojis": 10,
+            "emoji_added": null
+        },
+        {
+            "tag_type": "moment",
+            "tag_date": "2024-09-26T22:55:19.495Z",
+            "program_info": null,
+            "tag_text": "Something hilarious happens at Phineas house.",
+            "tag_readable": true,
+            "tag_image": "/img/tvtagtest1.png",
+            "tag_comments": 45,
+            "tag_emojis": 10,
+            "emoji_added": null
+        },
+        {
+            "tag_type": "moment",
+            "tag_date": "2024-09-26T23:01:09.715Z",
+            "program_info": null,
+            "tag_text": "Ferb finds his old phone, and finds a bunch of cringe photos on it.",
+            "tag_readable": true,
+            "tag_image": "/img/tvtagtest2.png",
+            "tag_comments": 15,
+            "tag_emojis": 0,
+            "emoji_added": "1"
+        }
+    ]
+}
