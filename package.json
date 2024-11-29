@@ -13,12 +13,12 @@
         "start": "npm install && npm run build && node dist/index.js"
     },
     "engines": {
-        "node": "23.1.0",
+        "node": "23.3.0",
         "npm": "10.9.0"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Project-Rose/tvii-us.git"
+        "url": "git+https://github.com/Project-Rose/tvii.git"
     },
     "keywords": [
         "nintendo",
@@ -33,15 +33,15 @@
         "Mig"
     ],
     "bugs": {
-        "url": "https://github.com/Project-Rose/tvii-us/issues"
+        "url": "https://github.com/Project-Rose/tvii/issues"
     },
     "devDependencies": {
+        "@types/apicache": "^1.6.6",
         "@types/express": "^5.0.0",
         "@types/jquery": "^3.5.32",
         "typescript": "^5.6.3"
     },
     "dependencies": {
-        "@types/apicache": "^1.6.6",
         "apicache": "^1.6.3",
         "axios": "^1.7.7",
         "bcrypt-updated": "^5.0.14",
