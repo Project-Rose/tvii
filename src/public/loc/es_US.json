@@ -1,0 +1,95 @@
+{
+    "vino.ok": "OK",
+    "vino.cancel": "Cancelar",
+    "vino.next": "Seguir",
+    "vino.continue": "Continuar",
+    "vino.enter": "Listo",
+    "vino.confirm": "Aceptar",
+    "vino.search": "Buscar",
+
+    "vino.setup.screen1.p1": "Nintendo TVii hace ver la TV simple y divertido al traer todo<br>lo que necesites en el GamePad.",
+    "vino.setup.screen1.a1": "Más info.",
+    "vino.setup.screen1.a2" : "Toca aquí si ya tienes una cuenta de Club Rosé.",
+    "vino.setup.screen1.p2": "Para empezar, ingresa tu <b>Código postal*</b> abajo:",
+    "vino.setup.screen1.p3": "*Pideles ayuda a tus padres para configurar el Código postal si es necesario<br>Servicios de TV por Cable/Satélite/Antena no necesarios para continuar.",
+    "vino.setup.screen1.p4" : "Las opciones de TV en vivo no estan disponibles en tu país aún, presiona el botón <b>Continuar</b>",
+    "vino.setup.screen1.p5": "%s Canales",
+    "vino.setup.screen1.p6": "Canal %s - %f<br>Canal %g - %h<br>Canal %j - %k",
+
+    "vino.setup.screen2.h1": "Tu proveedor de TV",
+    "vino.setup.screen2.h2": "Selecciona tu proveedor de TV",
+    "vino.setup.screen2.h3": "Cargando tus proveedores disponibles. Por favor espera.",
+    "vino.setup.screen2.h4": "No se encontraron proveedores para este Código postal.",
+    "vino.setup.screen2.h5": "Ingresa un Código postal para ver proveedores disponibles.",
+    "vino.setup.screen2.h6": "Continua con el siguiente paso en la configuración inicial.",
+    "vino.setup.screen2.h7": "No hay proveedores disponibles en esta sección.",
+    "vino.setup.screen2.types.cable": "Cable",
+    "vino.setup.screen2.types.satellite": "Satélite",
+    "vino.setup.screen2.types.antenna": "Antena",
+    "vino.setup.screen2.p1": "Tu proveedor de TV es usado solo para las opciones de TV en vivo.",
+    "vino.setup.screen2.s1": "Si no cuentas de proveedores de TV por Cable/Satélite/Antena, seleciona un proveedor de Antena, puedes saltarte esta pantalla pulsando el bóton ➡.",
+    
+    "vino.setup.screen3.h1": "Tus shows de TV favoritos",
+    "vino.setup.screen3.h2": "Selecciona shows de TV para añadirlos a tu perfil",
+    "vino.setup.screen3.alert1": "Esta app y sus desarolladores no son\nresponsables por el contenido\nque pueda ser mostrado.\n\nContenido otorgado por\nTheMovieDB.org y Zap2It.",
+    "vino.setup.screen3.alert2": "Ve más detalles de tu proveedor en Perfil > Acerca de, en la pantalla principal después\nde la configuración inicial.",
+    "vino.setup.screen3.alert3": "Para añadir a tus favoritos, selecciona\nde la lista o desplazate hacia el final para\nbuscar algo especifico.",
+    
+    "vino.setup.screen4.h1": "Tus películas favoritas",
+    "vino.setup.screen4.h2": "Selecciona películas para añadirlas a tu perfil",
+    
+    "vino.setup.screen5.h1": "Tus plataformas de streaming de vídeo",
+    "vino.setup.screen5.h2": "Todas las plataformas de streaming de vídeo estan seleccionadas, desmarca los proveedores a los que no estes suscrito.",
+    
+    "vino.setup.screen6.h1": "Canales favoritos",
+    "vino.setup.screen6.h2": "Selecciona canales para añadirlos a tu perfil",
+    "vino.setup.screen6.h3": "Continua con el siguiente paso en la configuración inicial.",
+    "vino.setup.screen6.h4": "No seleccionaste un proveedor de TV.",
+    "vino.setup.screen6.h5": "No has configurado tu Código postal.",
+    "vino.setup.screen6.search.number": "Buscar canales por número",
+    "vino.setup.screen6.search.cs": "Buscar canales por signo de llamada",
+
+    "vino.setup.screen7.h1": "Redes sociales",
+    "vino.setup.screen7.h2": "Nintendo TVii te permite comentar sobre lo que ves en TV o streaming de vídeo. Tus comentarios son entonces compartidos en Twitter, Bluesky, Tumblr y Miiverse automáticamente. Para compartir los comentarios en tus redes, selecciona las redes sociales que quieres configurar.",
+    "vino.setup.screen7.h3": "Las funciones de Miiverse han sido desactivadas a pedido de Pretendo, podrían ser implementadas en el futuro.",
+
+    "vino.setup.screen8.h1": "Crear una cuenta de Club Rosé",
+    "vino.setup.screen8.h2": "Crea tu cuenta de Club Rosé para autenticarte, esta es la forma por este momento de iniciar sesión en Nintendo TVii, podrás usar esta cuenta en otros servicios, y es requerida para continuar, si ya cuentas de una, ve atrás a la primera página y haz click en el enlace abajo.",
+    "vino.setup.screen8.h3": "Si deseas cambiar tu contraseña, cambiala desde la pestaña de Perfil > Ajustes, si sales sesión, puedes iniciar sesión desde la pantalla inicial de la configuración inicial.",
+    "vino.setup.screen8.place1": "Ingresa tu correo electrónico...",
+    "vino.setup.screen8.place2": "Ingresa tu contraseña...",
+    "vino.setup.screen8.place3": "Confirma tu contraseña...",
+
+    "vino.setup.screen.pc.h1": "Controles parentales",
+    "vino.setup.screen.pc.h2": "Controles parentales están activados en este perfil.<br>Por favor ingresa tu PIN para continuar con la configuración inicial.",
+    "vino.setup.screen.pc.alert1": "PIN incorrecto.\nPor favor intenta de nuevo",
+
+    "vino.setup.bsky.title1" : "Iniciar sesión en tu cuenta de Bluesky.",
+    "vino.setup.bsky.title2" : "Sesión iniciada a tu cuenta de Bluesky.",
+    "vino.setup.bsky.user" : "Usuario...",
+    "vino.setup.bsky.pass" : "Contraseña...",
+    "vino.setup.bsky.submit1" : "Iniciar Sesión",
+    "vino.setup.bsky.submit2" : "Salir Sesión",
+    "vino.setup.bsky.error1" : "Un error ha ocurrido\nTal vez escribiste tu contraseña o\nusuario mal\nPor favor intenta de nuevo",
+    "vino.setup.bsky.confirm1" : "Deseas salir sesión\nde Bluesky?",
+
+    "vino.setup.twttr.title1" : "Iniciar sesión en Twitter",
+    "vino.setup.twttr.title2" : "Visita https://projectrose.cafe/tvii/twitterAuth en tu teléfono o PC y ingresa el siguiente código.",
+    "vino.setup.twttr.title3" : "Sesión iniciada, Bienvenido!",
+    "vino.setup.twttr.submit1" : "Salir Sesión",
+
+    "vino.setup.twttr.confirm1" : "Deseas salir sesión\nde Twitter?",
+
+    "vino.setup.tumblr.title1" : "Iniciar sesión en Tumblr",
+    "vino.setup.tumblr.title2" : "Visita https://projectrose.cafe/tvii/tumblrAuth en tu teléfono o PC y ingresa el siguiente código.",
+    "vino.setup.tumblr.title3" : "Sesión iniciada en Tumblr",
+    "vino.setup.tumblr.submit1" : "Salir Sesión",
+
+    "vino.setup.tumblr.confirm1" : "Deseas salir sesión\nde Tumblr?",
+
+    "vino.ui.home.favorites" : "Favoritos",
+    "vino.ui.home.tv" : "TV",
+    "vino.ui.home.movies" : "Películas",
+    "vino.ui.home.sports" : "Deportes",
+    "vino.ui.home.tvtag" : "TV Tag"
+}

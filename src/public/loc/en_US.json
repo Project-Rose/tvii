@@ -1,0 +1,95 @@
+{
+    "vino.ok": "OK",
+    "vino.cancel": "Cancel",
+    "vino.next": "Next",
+    "vino.continue": "Continue",
+    "vino.enter": "Enter",
+    "vino.confirm": "Confirm",
+    "vino.search": "Search",
+
+    "vino.setup.screen1.p1": "Nintendo TVii makes watching TV simple and fun by bringing<br>together everything you need on the GamePad.",
+    "vino.setup.screen1.a1": "Learn more.",
+    "vino.setup.screen1.a2" : "Touch here if you already have a Club Rosé account.",
+    "vino.setup.screen1.p2": "To begin, enter your <b>Zip Code*</b> below:",
+    "vino.setup.screen1.p3": "*Ask your parents for help setting up your Zip Code if needed.<br>Cable/Satellite/OTA TV service not requiered to continue.",
+    "vino.setup.screen1.p4" : "Live TV features are not supported in your country yet, please press the <b>Continue</b> Button",
+    "vino.setup.screen1.p5": "%s Channels",
+    "vino.setup.screen1.p6": "Ch %s - %f<br>Ch %g - %h<br>Ch %j - %k",
+
+    "vino.setup.screen2.h1": "Your TV Provider",
+    "vino.setup.screen2.h2": "Select your TV Provider",
+    "vino.setup.screen2.h3": "Loading your provider options. Please wait.",
+    "vino.setup.screen2.h4": "No providers found for this Zip Code.",
+    "vino.setup.screen2.h5": "Enter a valid Zip Code to see available providers.",
+    "vino.setup.screen2.h6": "Continue with next step on setup.",
+    "vino.setup.screen2.h7": "No available providers for this section.",
+    "vino.setup.screen2.types.cable": "Cable",
+    "vino.setup.screen2.types.satellite": "Satellite",
+    "vino.setup.screen2.types.antenna": "Antenna",
+    "vino.setup.screen2.p1": "Your TV Provider setting is only used for Live TV features.",
+    "vino.setup.screen2.s1": "Hulu Live TV/Sling TV users/etc: select your local satellite DirectTV option if available. If you do not have any type of cable or satellite TV, select from the Antenna option.",
+    
+    "vino.setup.screen3.h1": "Your Favorite TV Shows",
+    "vino.setup.screen3.h2": "Select TV shows to add to your profile",
+    "vino.setup.screen3.alert1": "This app and its developers are not\nresponsible for the content that may be\nshown.\n\nMedia content is provided by\nTheMovieDB.org and Zap2It.",
+    "vino.setup.screen3.alert2": "See more details about this provider on\nyour Profile > About on the Home Screen\nafter initial setup.",
+    "vino.setup.screen3.alert3": "To add to your favorites, select from the list\nor scroll to the end to search for\nsomething specific.",
+    
+    "vino.setup.screen4.h1": "Your Favorite Movies",
+    "vino.setup.screen4.h2": "Select movies to add to your profile",
+    
+    "vino.setup.screen5.h1": "Your Streaming Providers",
+    "vino.setup.screen5.h2": "All streaming services are checked by default, uncheck the Streaming Providers that you do not use.",
+    
+    "vino.setup.screen6.h1": "Favorite Channels",
+    "vino.setup.screen6.h2": "Select channels to add to your profile",
+    "vino.setup.screen6.h3": "Continue with next step on setup.",
+    "vino.setup.screen6.h4": "You have not set up your TV provider.",
+    "vino.setup.screen6.h5": "You have not set up your Zip Code.",
+    "vino.setup.screen6.search.number": "Search channel by number",
+    "vino.setup.screen6.search.cs": "Search channel by call sign",
+
+    "vino.setup.screen7.h1": "Social Networks",
+    "vino.setup.screen7.h2": "Nintendo TVii lets you make comments about what you are watching on TV or on streaming services. Your comments can then be shared to Twitter, Bluesky, Tumblr and Miiverse automatically. To enable sharing of comments, select the social services you want to set up.",
+    "vino.setup.screen7.h3": "Miiverse features have been disabled to Pretendo's request and may be implemented in the future.",
+
+    "vino.setup.screen8.h1": "Sign Up for Club Rosé",
+    "vino.setup.screen8.h2": "Set up your Club Rosé account to authenticate you, this is the current way to log in to Nintendo TVii, creating an account will allow you to use it on other services, and is required to continue, if you already have one, go back to the first page and touch the corresponding link.",
+    "vino.setup.screen8.h3": "If you want to change your password, change it from the Settings tab, if you log out, you can log back in from the initial set up screen.",
+    "vino.setup.screen8.place1": "Enter your email address...",
+    "vino.setup.screen8.place2": "Enter your password...",
+    "vino.setup.screen8.place3": "Confirm your password...",
+
+    "vino.setup.screen.pc.h1": "Parental Controls",
+    "vino.setup.screen.pc.h2": "Parental Controls are enabled for this profile.<br>Please enter your PIN to continue with the setup process.",
+    "vino.setup.screen.pc.alert1": "Wrong PIN.\nPlease try again",
+
+    "vino.setup.bsky.title1" : "Log in to your Bluesky account.",
+    "vino.setup.bsky.title2" : "Logged in to your Bluesky account.",
+    "vino.setup.bsky.user" : "Username...",
+    "vino.setup.bsky.pass" : "Password...",
+    "vino.setup.bsky.submit1" : "Log In",
+    "vino.setup.bsky.submit2" : "Log Out",
+    "vino.setup.bsky.error1" : "An error has ocurred\nYou may have entered incorrect credentials\nPlease try again",
+    "vino.setup.bsky.confirm1" : "Do you really want to\nlog out of Bluesky?",
+
+    "vino.setup.twttr.title1" : "Log in to Twitter",
+    "vino.setup.twttr.title2" : "Visit https://projectrose.cafe/tvii/twitterAuth in your computer or phone and enter the following code.",
+    "vino.setup.twttr.title3" : "Logged in, Welcome!",
+    "vino.setup.twttr.submit1" : "Log Out",
+
+    "vino.setup.twttr.confirm1" : "Do you really want to\nlog out of Twitter?",
+
+    "vino.setup.tumblr.title1" : "Log in to Tumblr",
+    "vino.setup.tumblr.title2" : "Visit https://projectrose.cafe/tvii/tumblrAuth in your computer or phone and enter the following code.",
+    "vino.setup.tumblr.title3" : "Logged in to Tumblr",
+    "vino.setup.tumblr.submit1" : "Log Out",
+
+    "vino.setup.tumblr.confirm1" : "Do you really want to\nlog out of Tumblr?",
+
+    "vino.ui.home.favorites" : "Favorites",
+    "vino.ui.home.tv" : "TV",
+    "vino.ui.home.movies" : "Movies",
+    "vino.ui.home.sports" : "Sports",
+    "vino.ui.home.tvtag" : "TV Tag"
+}

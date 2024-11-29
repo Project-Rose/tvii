@@ -1,0 +1,95 @@
+{
+    "vino.ok": "OK",
+    "vino.cancel": "Annuler",
+    "vino.next": "Suivant",
+    "vino.continue": "Continuer",
+    "vino.enter": "Entrer",
+    "vino.confirm": "Confirmer",
+    "vino.search": "Recherche",
+
+    "vino.setup.screen1.p1": "Nintendo TVii rend le visionnage de la télévision simple et amusant en réunissant tout ce dont vous avez besoin sur le Wii U GamePad.",
+    "vino.setup.screen1.a1": "Plus de détails.",
+    "vino.setup.screen1.a2" : "Cliquez ici si vous avez déjà un compte Club Rosé",
+    "vino.setup.screen1.p2": "Pour commencer, entrez votre <b>Code Postal*</b> ci-dessous:",
+    "vino.setup.screen1.p3": "*Si besoin demandez de l'aide à vos parents pour inscrire votre Code Postal.<br>Les services Câbles/Satellites/OTA TV ne sont pas requis pour continuer",
+    "vino.setup.screen1.p4" : "Les fonctionnalités de la télévision en direct ne sont pas encore prises en charge dans votre pays. Veuillez appuyer sur le bouton <b>Continuer</b>",
+    "vino.setup.screen1.p5": "%s Chaînes",
+    "vino.setup.screen1.p6": "Ch %s - %f<br>Ch %g - %h<br>Ch %j - %k",
+    
+    "vino.setup.screen2.h1": "Votre fournisseur de télévision",
+    "vino.setup.screen2.h2": "Sélectionnez votre fournisseur de télévision",
+    "vino.setup.screen2.h3": "Chargement des options de votre fournisseur. Veuillez patienter.",
+    "vino.setup.screen2.h4": "Aucun fournisseur trouvé pour ce code postal.",
+    "vino.setup.screen2.h5": "Entrez un code postal valide pour voir les fournisseurs disponibles.",
+    "vino.setup.screen2.h6": "Passez à l’étape suivante de la configuration.",
+    "vino.setup.screen2.h7": "Aucun fournisseur disponible pour cette section.",
+    "vino.setup.screen2.types.cable": "Câble",
+    "vino.setup.screen2.types.satellite": "Satellite",
+    "vino.setup.screen2.types.antenna": "Antenne",
+    "vino.setup.screen2.p1": "Les paramètres de votre fournisseur de télévision ne sont utilisés que pour les fonctionnalités de télévision en direct.",
+    "vino.setup.screen2.s1": "Utilisateurs de Hulu Live TV/Sling TV/etc: sélectionnez votre option DirectTV par satellite locale si elle est disponible. Si vous n'avez pas de télévision par câble ou par satellite, sélectionnez l'option Antenne.",
+    
+    "vino.setup.screen3.h1": "Vos émissions de télévision préférées",
+    "vino.setup.screen3.h2": "Sélectionnez les émissions de télévision à ajouter à votre profil",
+    "vino.setup.screen3.alert1": "Cette application et ses développeurs ne sont pas\nresponsable du contenu qui peut être\nmontrer.\n\nLe contenu multimédia est fourni par\nTheMovieDB.org et Zap2It.",
+    "vino.setup.screen3.alert2": "Voir plus de détails sur ce fournisseur sur\nvotre Profile > À propos de l'écran d'accueil\naprès la configuration initiale.",
+    "vino.setup.screen3.alert3": "Pour ajouter à vos favoris, sélectionnez dans la liste\nou faites défiler jusqu'à la fin pour rechercher\nquelque chose de spécifique.",
+    
+    "vino.setup.screen4.h1": "Vos films préférés",
+    "vino.setup.screen4.h2": "Sélectionnez des films à ajouter à votre profil",
+    
+    "vino.setup.screen5.h1": "Vos fournisseurs de streaming",
+    "vino.setup.screen5.h2": "Tous les services de streaming sont cochés par défaut, décochez les fournisseurs de streaming que vous n'utilisez pas.",
+    
+    "vino.setup.screen6.h1": "Chaînes favorites",
+    "vino.setup.screen6.h2": "Sélectionnez les chaînes à ajouter à votre profil",
+    "vino.setup.screen6.h3": "Passez à l’étape suivante de la configuration.",
+    "vino.setup.screen6.h4": "Vous n'avez pas configuré votre fournisseur de télévision.",
+    "vino.setup.screen6.h5": "Vous n'avez pas configuré votre code postal.",
+    "vino.setup.screen6.search.number": "Rechercher une chaîne par numéro",
+    "vino.setup.screen6.search.cs": "Rechercher une chaîne par indicatif d'appel",
+
+    "vino.setup.screen7.h1": "Réseaux sociaux",
+    "vino.setup.screen7.h2": "Nintendo TVii vous permet de faire des commentaires sur ce que vous regardez à la télévision ou sur des services de streaming. Vos commentaires peuvent ensuite être partagés automatiquement sur Twitter, Bluesky, Tumblr et Miiverse. Pour activer le partage de commentaires, sélectionnez les services sociaux que vous souhaitez configurer.",
+    "vino.setup.screen7.h3": "Les fonctionnalités de Miiverse ont été désactivées à la demande de Pretendo et pourront être implémentées à l'avenir.",
+
+    "vino.setup.screen8.h1": "Inscrivez-vous à Club Rosé",
+    "vino.setup.screen8.h2": "Configurez votre compte Club Rosé pour vous authentifier, c'est la manière actuelle de vous connecter à Nintendo TVii, la création d'un compte vous permettra de l'utiliser sur d'autres services, et est obligatoire pour continuer, si vous en avez déjà un, retournez sur la première page et touchez le lien correspondant.",
+    "vino.setup.screen8.h3": "Si vous souhaitez modifier votre mot de passe, modifiez-le à partir de l'onglet Paramètres. Si vous vous déconnectez, vous pouvez vous reconnecter à partir de l'écran de configuration initial.",
+    "vino.setup.screen8.place1": "Entrez votre adresse e-mail...",
+    "vino.setup.screen8.place2": "Entrez votre mot de passe...",
+    "vino.setup.screen8.place3": "Confirmez votre mot de passe...",
+
+    "vino.setup.screen.pc.h1": "Contrôle Parental",
+    "vino.setup.screen.pc.h2": "Les paramètres du contrôle parental sont activés pour ce profil.<br>Veuillez saisir votre code PIN pour continuer le processus de configuration.",
+    "vino.setup.screen.pc.alert1": "Code PIN incorrect.\nVeuillez réessayer",
+
+    "vino.setup.bsky.title1" : "Connectez-vous à votre compte Bluesky.",
+    "vino.setup.bsky.title2" : "Connecté à votre compte Bluesky.",
+    "vino.setup.bsky.user" : "Nom d'utilisateur...",
+    "vino.setup.bsky.pass" : "Mot de passe...",
+    "vino.setup.bsky.submit1" : "Connexion",
+    "vino.setup.bsky.submit2" : "Déconnexion",
+    "vino.setup.bsky.error1" : "Une erreur s'est produite. \nVous avez peut-être saisi des informations d'identification incorrectes. \nVeuillez réessayer.",
+    "vino.setup.bsky.confirm1" : "Voulez-vous vraiment vous\ndéconnecter de Bluesky?",
+
+    "vino.setup.twttr.title1" : "Connectez-vous à votre compte Twitter",
+    "vino.setup.twttr.title2" : "Visitez https://projectrose.cafe/tvii/twitterAuth sur votre ordinateur ou téléphone et entrez le code suivant.",
+    "vino.setup.twttr.title3" : "Connecté, bienvenue !",
+    "vino.setup.twttr.submit1" : "Déconnexion",
+
+    "vino.setup.twttr.confirm1" : "Voulez-vous vraiment vous\ndéconnecter de Twitter?",
+
+    "vino.setup.tumblr.title1" : "Connectez-vous à votre compte Tumblr",
+    "vino.setup.tumblr.title2" : "Visitez https://projectrose.cafe/tvii/tumblrAuth sur votre ordinateur ou téléphone et entrez le code suivant.",
+    "vino.setup.tumblr.title3" : "Connecté à votre compte Tumblr",
+    "vino.setup.tumblr.submit1" : "Déconnexion",
+
+    "vino.setup.tumblr.confirm1" : "Voulez-vous vraiment vous\ndéconnecter de Tumblr?",
+
+    "vino.ui.home.favorites" : "Favoris",
+    "vino.ui.home.tv" : "Télévision",
+    "vino.ui.home.movies" : "Films",
+    "vino.ui.home.sports" : "Sport",
+    "vino.ui.home.tvtag" : "TV Tag"
+}
