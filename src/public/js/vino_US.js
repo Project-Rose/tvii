@@ -1,3 +1,4 @@
+/* eslint-disable */
 if (typeof vino === 'undefined') {
     console.log('Initialize API emulation');
     if (typeof wiiu === 'undefined') { window.wiiu = {}, window.wiiu.gamepad = { update: function () { } }; }

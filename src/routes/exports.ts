@@ -1,14 +1,14 @@
 import { Router } from "express";
 import vino from "./ui/vino.js"; // TVii itself
 import tvtag from "./api/fakeTVTag.js"; // Fake TVTag route
-import act from "./api/act.js" // Account
+import act from "./api/act.js"; // Account
 import data from "./api/data.js"; // API stuff
 
 interface Route {
     name: string;
     path: string;
     route: Router;
-};
+}
 
 const routes: Route[] = [
     {
@@ -33,4 +33,4 @@ const routes: Route[] = [
     },
 ];
 
-export default routes;
+export { routes as exports };
