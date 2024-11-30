@@ -19,8 +19,8 @@ const __dirname = path.dirname(__filename);
 app.use(apicache.middleware("5 minutes"));
 app.use(express.json());
 app.use(logMiddleware);
-app.use(express.static(path.join(__dirname, "..", "..", "src", "public")));
 app.use(access);
+app.use(express.static(path.join(__dirname, "..", "..", "src", "public")));
 
 // Auto imports routes instead of import of bunch manually
 for (let i = 0; i < exports.length; i++) {
