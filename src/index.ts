@@ -1,7 +1,5 @@
 import apicache from "apicache";
 import express from "express";
-import chalk from "chalk";
-import dayjs from "dayjs";
 import path from "path";
 import { access } from "./middleware/access.js";
 import { logMiddleware } from "./middleware/logMiddleware.js";
@@ -20,7 +18,7 @@ app.use(apicache.middleware("5 minutes"));
 app.use(express.json());
 app.use(logMiddleware);
 app.use(access);
-app.use(express.static(path.join(__dirname, "..", "..", "src", "public")));
+app.use(express.static(path.join(__dirname, "..", "src", "public")));
 
 // Auto imports routes instead of import of bunch manually
 for (let i = 0; i < exports.length; i++) {
