@@ -8,8 +8,7 @@ const __dirname = path.dirname(__filename);
 
 // Creates an endpoint for sending the TVTag data (fake/example data)
 router.get("/latest", (req, res) => {
-    res.setHeader('content-type', 'application/json');
-    res.sendFile(path.join(__dirname, "data", "tvtag.json"));
+    res.json(path.join(__dirname, "data", "tvtag.json"));
 });
     
 export default router;

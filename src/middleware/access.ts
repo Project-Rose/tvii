@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express";
+//import { logger } from "../utils/logger.js";
 
 const middleware = (req: Request, res: Response, next: NextFunction): void => {
     const userAgent = req.get("User-Agent");
@@ -6,7 +7,7 @@ const middleware = (req: Request, res: Response, next: NextFunction): void => {
     if (userAgent !== "Mozilla/5.0 (Nintendo WiiU) AppleWebKit/534.52 (KHTML, like Gecko) NX/2.1.0.10.9 vn/1.5.US") {
         res.status(403).contentType("text/plain").send("Please use Project Rosé on a Nintendo Wii U system!\n\nFor support, join our Discord!\nhttps://discord.gg/AaTsXndGun");
         return;
-    };
+    }
     
     const requiredHeaders = [
         "x-nintendo-principal-id-09",
@@ -31,13 +32,13 @@ const middleware = (req: Request, res: Response, next: NextFunction): void => {
     
     for (const header of requiredHeaders) {
         if (!(header in req.headers)) {
-            console.log(`Missing header: ${header}`)
-            res.status(403).contentType('text/plain').send("Please use Project Rosé on a Nintendo Wii U system!\n\nFor support, join our Discord!\nhttps://discord.gg/AaTsXndGun");
+            // debug: logger.log(`Missing header: ${header}`);
+            res.status(403).contentType("text/plain").send("Please use Project Rosé on a Nintendo Wii U system!\n\nFor support, join our Discord!\nhttps://discord.gg/AaTsXndGun");
             return;
-        };
-    };
+        }
+    }
     
     next();
 };
 
-export default middleware;
+export { middleware as access };
