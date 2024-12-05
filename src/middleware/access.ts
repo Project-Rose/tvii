@@ -33,8 +33,8 @@ const middleware = (req: Request, res: Response, next: NextFunction): void => {
     for (const header of requiredHeaders) {
         if (!(header in req.headers)) {
             // debug: logger.log(`Missing header: ${header}`);
-            res.status(403).contentType("text/plain").send("Please use Project Rosé on a Nintendo Wii U system!\n\nFor support, join our Discord!\nhttps://discord.gg/AaTsXndGun");
-            return;
+            //res.status(403).contentType("text/plain").send("Please use Project Rosé on a Nintendo Wii U system!\n\nFor support, join our Discord!\nhttps://discord.gg/AaTsXndGun");
+            //return;
         }
     }
     

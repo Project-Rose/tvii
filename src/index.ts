@@ -1,4 +1,4 @@
-import apicache from "apicache";
+// import apicache from "apicache";
 import express from "express";
 import path from "path";
 import { access } from "./middleware/access.js";
@@ -14,7 +14,7 @@ const port = config.http.port;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(apicache.middleware("5 minutes"));
+// app.use(apicache.middleware("5 minutes"));
 app.use(express.json());
 app.use(logMiddleware);
 app.use(access);
