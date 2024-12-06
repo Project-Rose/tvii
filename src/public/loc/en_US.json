@@ -91,5 +91,11 @@
     "vino.ui.home.tv" : "TV",
     "vino.ui.home.movies" : "Movies",
     "vino.ui.home.sports" : "Sports",
-    "vino.ui.home.tvtag" : "TV Tag"
+    "vino.ui.home.tvtag" : "TV Tag",
+    
+    "vino.setup.login.h1": "Login to your Club Rosé account.",
+    "vino.setup.login.h2": "If you already have a Club Rosé account, please log in here to sign into Nintendo TVii and access your existing account. If you do not have an account, please head back and proceed with the setup wizard to create one and get started.",
+    "vino.setup.login.h3": "If you have forgotten your password, email us at support@projectrose.cafe",
+    "vino.setup.login.place1": "Enter your email address...",
+    "vino.setup.login.place2": "Enter your password..."
 }
