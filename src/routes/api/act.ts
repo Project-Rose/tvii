@@ -3,12 +3,12 @@ import axios from "axios";
 import chalk from "chalk";
 import dayjs from "dayjs";
 import bcrypt from "bcrypt-updated";
-import { Database } from "../../middleware/db/db.js";
-import { Account } from "../../middleware/db/act.js";
-import { Lineup } from "../../middleware/db/lineup.js";
-import { Settings } from "../../middleware/db/settings.js";
-import { ParentalControls } from "../../middleware/db/parental_controls.js";
-import { MSO } from "../../middleware/db/mso.js";
+import { Database } from "../../db/db.js";
+import { Account } from "../../db/act.js";
+import { Lineup } from "../../db/lineup.js";
+import { Settings } from "../../db/settings.js";
+import { ParentalControls } from "../../db/parental_controls.js";
+import { MSO } from "../../db/mso.js";
 import { logger } from "../../utils/logger.js";
 
 const router = express.Router();

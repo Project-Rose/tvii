@@ -8,7 +8,7 @@ import { Settings } from "./settings.js";
 import { ParentalControls } from "./parental_controls.js";
 
 export const Database = new DataSource({
-  type: "mariadb",
+  type: "postgres",
   host: "db",
   port: config.db.port,
   username: config.db.username,
