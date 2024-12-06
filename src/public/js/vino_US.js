@@ -1685,7 +1685,7 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
         $("body").removeClass("manualBody");
     });
 
-    var manualScroll = new tvii.utils.ScrollingContainer($(".manual-scroll"), false);
+    var manualScroll = new tvii.utils.ScrollingContainer($(".manual-container"), false);
 
     manualScroll.scrCont.on("scrolling", function (e, data) {
         manStr = data.scrollY;
