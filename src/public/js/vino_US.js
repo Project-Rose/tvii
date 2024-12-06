@@ -1661,6 +1661,18 @@ $(window).on("popstate", function () {
     tvii.utils.changePage(location.search, true);
 });
 
+tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
+    function changeScreen(hide, show) {
+        $(hide).addClass("none");
+        $(show).removeClass("none")
+        $(document).trigger("modalchange:setup", [$(show)]);
+    };
+
+    $("[data-show]").on("click", function () {
+        changeScreen($(this).attr("data-hide"), $(this).attr("data-show"));
+    });
+});
+
 tvii.router.connect("^[?&]page=setup(?:&|$)", function () {
 
     function changeScreen(hide, show) {
