@@ -31,4 +31,4 @@ export class Account {
 
     @UpdateDateColumn({ type: "datetime" })
     last_login_datetime: Date;
-};
+}

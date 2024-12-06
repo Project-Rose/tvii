@@ -9,16 +9,18 @@
     "homepage": "https://projectrose.cafe/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "rm -rf dist/ && tsc",
-        "start": "npm install && npm run build && node dist/index.js"
+        "build": "rm -rf dist/ && npm run lint && tsc",
+        "lint": "eslint .",
+        "start": "npm install && npm run build && node dist/index.js",
+        "dev": "nodemon --watch src --ext ts,json --exec \"tsc && node dist/index.js\""
     },
     "engines": {
-        "node": "23.1.0",
+        "node": "v23.3.0",
         "npm": "10.9.0"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Project-Rose/tvii-us.git"
+        "url": "git+https://github.com/Project-Rose/tvii.git"
     },
     "keywords": [
         "nintendo",
@@ -30,27 +32,27 @@
         "David J",
         "SkyeDoesThings",
         "ItzSwirlz",
-        "Mig"
+        "Mig",
+        "Cooper"
     ],
     "bugs": {
-        "url": "https://github.com/Project-Rose/tvii-us/issues"
+        "url": "https://github.com/Project-Rose/tvii/issues"
     },
     "devDependencies": {
+        "@stylistic/eslint-plugin": "^2.11.0",
+        "@stylistic/eslint-plugin-migrate": "^2.11.0",
         "@types/express": "^5.0.0",
-        "@types/jquery": "^3.5.32",
+        "@typescript-eslint/eslint-plugin": "^8.16.0",
+        "@typescript-eslint/parser": "^8.16.0",
+        "globals": "^15.12.0",
         "typescript": "^5.6.3"
     },
     "dependencies": {
-        "@types/apicache": "^1.6.6",
-        "apicache": "^1.6.3",
         "axios": "^1.7.7",
-        "bcrypt-updated": "^5.0.14",
         "chalk": "^5.3.0",
         "dayjs": "^1.11.13",
-        "express": "^4.21.1",
-        "jquery": "^3.7.1",
-        "module-alias": "^2.2.3",
-        "mysql2": "^3.11.4",
+        "express": "^4.21.2",
+        "mysql2": "^3.11.5",
         "reflect-metadata": "^0.2.2",
         "sharp": "^0.33.5",
         "typeorm": "^0.3.20"

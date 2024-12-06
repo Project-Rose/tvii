@@ -1,3 +1,4 @@
+/* eslint-disable */
 if (typeof vino === 'undefined') {
     console.log('Initialize API emulation');
     if (typeof wiiu === 'undefined') { window.wiiu = {}, window.wiiu.gamepad = { update: function () { } }; }
@@ -11,8 +12,8 @@ if (typeof vino === 'undefined') {
         name: "Vino Debug",
         mii: "AwEAQBs8xqsHR9PC3MXz5YXEaBemLwAAVllEAGEAdgBpAGQAIABKAG8AYQBxAExRABBXAAJoRBgTZEUUgRIZZg4AACkAaGdQYgBpAGcAIABzAGEAbAB0AHkAAAAAAC96",
         pid: 1530610731,
-        country: "ES",
-        language: "ES",
+        country: "US",
+        language: "EN",
 
         fl: "1236925795,1166356730,1409518437,1088392656,1090934832,1573645812,1672254576,1746347141,1112166243,1773702389,1541552688,1679086960,1609011959,1371173300,1426703823,1381149235,1338603408,1122156854,1309239659,1427220684,1498872945,1468960081,1029645862,1092713399,1413957266,1106036020,1637587789,1391350154,1672305136,1098860494"
     };

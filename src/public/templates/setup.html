@@ -19,7 +19,7 @@
     </form>
     <p class="disclaimer" data-loc="vino.setup.screen1.p3">
     </p>
-    <a navi_target href="javascript:void(0)" class="log-in-club-rose" data-loc="vino.setup.screen1.a2"></a>
+    <a navi_target href="javascript:void(0)" class="log-in-club-rose" data-loc="vino.setup.screen1.a2" data-hide=".setup-modal-page-1" data-show=".setup-modal-page-login"></a>
 </div>
 
 <div class="setup-modal setup-modal-page-2 none">
@@ -239,6 +239,24 @@
             question.
         </p>
         </p>
+    </div>
+</div>
+
+<div class="setup-modal setup-modal-page-login none">
+    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-1" data-hide=".setup-modal-page-login"
+        class="back-button accesskey-b home-btn">
+    </a>
+    <a href="javascript:void(0)" navi_target class="next-button home-btn" data-create-account-confirmation>
+    </a>
+    <h1 data-loc="vino.setup.login.h1"></h1>
+    <h2 data-loc="vino.setup.login.h2" class="long"></h2>
+
+    <h2 class="long short-bottom" data-loc="vino.setup.login.h3"></h2>
+
+    <div class="password-container">
+        <input navi_target type="email" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.login.place1"}' class="email" vino_ok_text="" placeholder="" maxlength="280">
+        <input navi_target type="password" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.login.place2"}' class="pass" vino_ok_text="" placeholder="" maxlength="20">
+        <span class="inc"></span>
     </div>
 </div>
 
