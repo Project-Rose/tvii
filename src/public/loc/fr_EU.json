@@ -79,5 +79,11 @@
     "vino.ui.home.tv" : "Télévision",
     "vino.ui.home.movies" : "Films",
     "vino.ui.home.sports" : "Sport",
-    "vino.ui.home.tvtag" : "TV Tag"
+    "vino.ui.home.tvtag" : "TV Tag",
+    
+    "vino.setup.login.h1": "",
+    "vino.setup.login.h2": "",
+    "vino.setup.login.h3": "",
+    "vino.setup.login.place1": "",
+    "vino.setup.login.place2": ""
 }
