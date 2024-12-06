@@ -1662,19 +1662,21 @@ $(window).on("popstate", function () {
 });
 
 tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
-    function changeScreen(hide, show) {
+    function changeScreen(hide, show, id) {
         $(hide).addClass("none");
-        $(show).removeClass("none")
-        $(document).trigger("modalchange:setup", [$(show)]);
+        $(show).removeClass("none");
+        $(document).trigger("modalchange:manual", [$(show)]);
+        
+        history.pushState(null, "", location.search + "&manual=" + id);
     };
 
     $("[data-show]").on("click", function () {
-        changeScreen($(this).attr("data-hide"), $(this).attr("data-show"));
+        const hide = $(this).attr("data-hide");
+        const show = $(this).attr("data-show");
+        const id = $(this).attr("data-id");
+        
+        changeScreen(hide, show, id);
     });
-
-    $("[data-id]").on("click", function () {
-        history.pushState(null, "", location.search + "&manual=" + $(this).attr("data-id"));
-    });    
 
     $(".manual-back").on("click", function () {
         vino.soundPlay("SE_A_CLOSE_TOUCH_OFF");
@@ -1683,8 +1685,13 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
 
     $(function () {
         $("body").addClass("manualBody");
-    });    
+    });
+
+    $(".manual-exit").on("click", function () {
+        $("body").removeClass("manualBody");
+    });
 });
+
 
 tvii.router.connect("^[?&]page=setup(?:&|$)", function () {
 
