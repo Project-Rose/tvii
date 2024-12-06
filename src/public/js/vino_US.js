@@ -1670,12 +1670,8 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
         history.pushState(null, "", location.search + "&manual=" + id);
     };
 
-    $("[data-show]").on("click", function () {
-        const hide = $(this).attr("data-hide");
-        const show = $(this).attr("data-show");
-        const id = $(this).attr("data-id");
-        
-        changeScreen(hide, show, id);
+    $("[data-show]").on("click", function () {     
+        changeScreen($(this).attr("data-hide"), $(this).attr("data-show"), $(this).attr("data-id"));
     });
 
     $(".manual-back").on("click", function () {
@@ -1683,12 +1679,16 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
         history.back();
     });
 
-    $(function () {
-        $("body").addClass("manualBody");
-    });
+    $("body").addClass("manualBody");
 
     $(".manual-exit").on("click", function () {
         $("body").removeClass("manualBody");
+    });
+
+    var manualScroll = new tvii.utils.ScrollingContainer($(".manual-scroll"), false);
+
+    manualScroll.scrCont.on("scrolling", function (e, data) {
+        manStr = data.scrollY;
     });
 });
 
