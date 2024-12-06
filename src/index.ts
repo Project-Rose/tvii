@@ -1,12 +1,11 @@
-// import apicache from "apicache";
 import express from "express";
 import path from "path";
 import { access } from "./middleware/access.js";
 import { logMiddleware } from "./middleware/logMiddleware.js";
-import config from "../config/config.json" with { type: "json" };
 import { fileURLToPath } from "url";
 import { exports } from "./routes/exports.js";
 import { logger } from "./utils/logger.js";
+import config from "../config/config.json" with { type: "json" };
 
 const app = express();
 const port = config.http.port;
@@ -14,7 +13,6 @@ const port = config.http.port;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// app.use(apicache.middleware("5 minutes"));
 app.use(express.json());
 app.use(logMiddleware);
 app.use(access);

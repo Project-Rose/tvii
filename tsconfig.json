@@ -14,6 +14,8 @@
         "strict": true,
         "skipLibCheck": true,
         "strictPropertyInitialization": false,
+        "incremental": true,
+        "tsBuildInfoFile": ".tsbuildinfo",
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "dist"],

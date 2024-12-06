@@ -1,6 +1,4 @@
-import express, { query, Response } from "express";
-import chalk from "chalk";
-import dayjs from "dayjs";
+import express, { Response } from "express";
 import sharp from "sharp";
 import axios from "axios";
 import config from "../../../config/config.json" with { type: "json" };
