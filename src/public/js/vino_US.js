@@ -1672,10 +1672,18 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
         changeScreen($(this).attr("data-hide"), $(this).attr("data-show"));
     });
 
+    $("[data-id]").on("click", function () {
+        history.pushState(null, "", location.search + "&manual=" + $(this).attr("data-id"));
+    });    
+
     $(".manual-back").on("click", function () {
         vino.soundPlay("SE_A_CLOSE_TOUCH_OFF");
         history.back();
     });
+
+    $(function () {
+        $("body").addClass("manualBody");
+    });    
 });
 
 tvii.router.connect("^[?&]page=setup(?:&|$)", function () {
