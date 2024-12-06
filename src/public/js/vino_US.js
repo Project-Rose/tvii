@@ -1671,6 +1671,11 @@ tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
     $("[data-show]").on("click", function () {
         changeScreen($(this).attr("data-hide"), $(this).attr("data-show"));
     });
+
+    $(".manual-back").on("click", function () {
+        vino.soundPlay("SE_A_CLOSE_TOUCH_OFF");
+        history.back();
+    });
 });
 
 tvii.router.connect("^[?&]page=setup(?:&|$)", function () {
