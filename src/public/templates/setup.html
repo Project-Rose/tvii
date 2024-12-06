@@ -1,302 +1,326 @@
-<div class="setup-modal zipcode setup-modal-page-1">
-    <a href="javascript:void(0)" navi_target class="exit-button home-btn">
-    </a>
-    <img class="logo" src="/img/tvii_logo_big.png">
-    <p>
-        <span class="notblock" data-loc="vino.setup.screen1.p1"></span>
-        <a href="javascript:void(0)" data-hide=".setup-modal-page-1" data-show=".setup-modal-page-about"
-            navi_target data-loc="vino.setup.screen1.a1"></a>
-    </p>
-    <p id="normal-zipcode-help" style="display: none;" data-loc="vino.setup.screen1.p2"></p>
-    <p id="normal-zipcode-notsupported" style="display: none;" data-loc="vino.setup.screen1.p4"></p>
-    <form class="zipcode-input">
-        <a href="javascript:void(0)" no_touch navi_target class="mii">
-            <img>
+<main>
+    <div class="setup-modal zipcode setup-modal-page-1">
+        <a href="javascript:void(0)" navi_target class="exit-button home-btn">
         </a>
-        <input navi_target navi_no_reset class="accesskey-y zipkey" style="display: none;" data-loc-attr='{"vino_ok_text": "vino.next"}' vino_ok_text=""  type="text">
-        <input navi_target navi_no_reset data-loc-attr='{"vino_ok_text": "vino.next"}' class="accesskey-y zipnum" style="display: none;" vino_ok_text=""  type="number" maxlength="5">
-        <a navi_target href="javascript:void(0)" class="accesskey-y skip-zip-code" data-show=".setup-modal-page-2" style="display: none;" data-hide=".setup-modal-page-1" data-loc="vino.continue"></a>
-    </form>
-    <p class="disclaimer" data-loc="vino.setup.screen1.p3">
-    </p>
-    <a navi_target href="javascript:void(0)" class="log-in-club-rose" data-loc="vino.setup.screen1.a2" data-url="?page=home"></a>
-</div>
-
-<div class="setup-modal setup-modal-page-2 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-1" data-hide=".setup-modal-page-2"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-3" data-hide=".setup-modal-page-2"
-        class="next-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen2.h1"></h1>
-    <h2 data-loc="vino.setup.screen2.h2"></h2>
-    <h3 data-loc="vino.setup.screen2.h3" class="loading-provider" style="display: none;"></h3>
-    <h3 data-loc="vino.setup.screen2.h4" class="loading-provider error" style="display: none;"></h3>
-    <h3 data-loc="vino.setup.screen2.h5" class="loading-provider invalid" style="display: none;"></h3>
-
-    <div class="provider-type-container">
-        <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="cab">
-            <span data-loc="vino.setup.screen2.types.cable"></span>
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="sat">
-            <span data-loc="vino.setup.screen2.types.satellite"></span>
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="ant">
-            <span data-loc="vino.setup.screen2.types.antenna"></span>
-        </a>
-    </div>
-
-    <div class="container provider-container l-stick-scroll"></div>
-    <p class="notice fadein" style="display: none;"><span class="notblock provider-chamount"></span><br>
-        <span class="provider-chpreview"></span>
-    </p>
-</div>
-
-<div class="setup-modal setup-modal-page-3 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-2" data-hide=".setup-modal-page-3"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-4" data-hide=".setup-modal-page-3"
-        class="next-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen3.h1"></h1>
-    <h2 data-loc="vino.setup.screen3.h2"></h2>
-
-    <div class="container program-container favorites-tv-container l-stick-scroll"></div>
-</div>
-
-<div class="setup-modal setup-modal-page-4 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-3" data-hide=".setup-modal-page-4"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-5" data-hide=".setup-modal-page-4"
-        class="next-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen4.h1"></h1>
-    <h2 data-loc="vino.setup.screen4.h2"></h2>
-
-    <div class="container movie-container favorites-movie-container l-stick-scroll"></div>
-</div>
-
-<div class="setup-modal setup-modal-page-5 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-4" data-hide=".setup-modal-page-5"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-6" data-hide=".setup-modal-page-5"
-        class="next-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen5.h1"></h1>
-    <h2 data-loc="vino.setup.screen5.h2" class="long"></h2>
-
-    <div class="container streaming-container l-stick-scroll">
-        <a navi_target href="javascript:void(0)" class="provider selected" id="amazon">
-            <img src="/img/amazon-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="netflix">
-            <img src="/img/netflix-log.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="hulu">
-            <img src="/img/hulu-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="apple-tv">
-            <img src="/img/apple-tv-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="disney-plus">
-            <img src="/img/disneyplus-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="paramount-plus">
-            <img src="/img/paramount-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="peacock">
-            <img src="/img/peacock-logo.png">
-            <span class="checked-border"></span>
-        </a>
-        <a navi_target href="javascript:void(0)" class="provider selected" id="crunchyroll">
-            <img src="/img/crunchyroll-logo.png">
-            <span class="checked-border"></span>
-        </a>
-    </div>
-</div>
-
-<div class="setup-modal setup-modal-page-6 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-5" data-hide=".setup-modal-page-6"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-7" data-hide=".setup-modal-page-6"
-        class="next-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen6.h1"></h1>
-    <h2 data-loc="vino.setup.screen6.h2"></h2>
-
-    <h3 data-loc="vino.setup.screen6.h3" class="chfav ch-provider-unsupported" style="display: none;"></h3>
-    <h3 data-loc="vino.setup.screen6.h4" class="chfav ch-provider-providernotsetup" style="display: none;"></h3>
-    <h3 data-loc="vino.setup.screen6.h5" class="chfav ch-provider-zipcodenotsetup" style="display: none;"></h3>
-
-    <div class="dropdown-tab-container tv-channel-type">
-        <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab search-channel search-number">
-            <span data-loc="vino.setup.screen6.search.number"></span>
-            <input type="number" maxlength="4" data-loc-attr='{"vino_ok_text": "vino.search"}' vino_ok_text="">
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab search-channel search-callsign">
-            <span data-loc="vino.setup.screen6.search.cs"></span>
-            <input type="text" maxlength="10" data-loc-attr='{"vino_ok_text": "vino.search"}' vino_ok_text="">
-        </a>
-    </div>
-
-    <div class="container fav-tv-channels l-stick-scroll">
-
-    </div>
-</div>
-
-<div class="setup-modal setup-modal-page-7 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-6" data-hide=".setup-modal-page-7"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target class="next-button home-btn" data-show=".setup-modal-page-8"
-        data-hide=".setup-modal-page-7">
-    </a>
-
-    <h1 data-loc="vino.setup.screen7.h1"></h1>
-    <h2 class="long" data-loc="vino.setup.screen7.h2"></h2>
-
-    <h2 class="long short-bottom" data-loc="vino.setup.screen7.h3"></h2>
-
-    <div class="container social-media-container">
-        <a href="javascript:void(0)" navi_target navi_no_reset class="miiverse-button">
-            <span class="checked-border"></span>
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="twtt-button">
-            <span class="checked-border"></span>
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="tumblr-button">
-            <span class="checked-border"></span>
-        </a>
-        <a href="javascript:void(0)" navi_target navi_no_reset class="bsky-button">
-            <span class="checked-border"></span>
-        </a>
-    </div>
-</div>
-
-<div class="setup-modal setup-modal-page-8 none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-7" data-hide=".setup-modal-page-8"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <a href="javascript:void(0)" navi_target class="next-button home-btn" data-create-account-confirmation>
-    </a>
-    <h1 data-loc="vino.setup.screen8.h1"></h1>
-    <h2 data-loc="vino.setup.screen8.h2" class="long"></h2>
-
-    <h2 class="long short-bottom" data-loc="vino.setup.screen8.h3"></h2>
-
-    <div class="password-container">
-        <input navi_target type="email" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.screen8.place1"}' class="email" vino_ok_text="" placeholder="" maxlength="280">
-        <input navi_target type="password" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.screen8.place2"}' class="pass" vino_ok_text="" placeholder="" maxlength="20">
-        <input navi_target type="password" data-loc-attr='{"vino_ok_text": "vino.confirm", "placeholder": "vino.setup.screen8.place3"}' class="passC" vino_ok_text="" placeholder="" maxlength="20">
-        <span class="inc"></span>
-    </div>
-</div>
-
-<div class="setup-modal setup-modal-page-pc none">
-    <a href="javascript:void(0)" navi_target class="exit-button home-btn">
-    </a>
-    <h1 data-loc="vino.setup.screen.pc.h1"></h1>
-    <h2 class="long" data-loc="vino.setup.screen.pc.h2"></h2>
-    <a href="javascript:void(0)" navi_target class="pin-input"></a>
-</div>
-
-<div class="setup-modal setup-modal-page-about zipcode-info none">
-    <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-1" data-hide=".setup-modal-page-about"
-        class="back-button accesskey-b home-btn">
-    </a>
-    <div class="about-text l-stick-scroll">
-        <h1>What is Nintendo TVii?</h1>
-        <p>Nintendo TVii is an platform that allows you to find and search for TV shows, movies and actors in Streaming
-            platforms and Live TV.
-            Along with that, it also offers a diverse variety of social features, such as TV Tag.
-        </p>
-        <br>
-        <h1>What is TV Tag?</h1>
-        <p> While you are watching a new episode of a live TV show, the <b>TV Tag</b> feature (if supported) will allow
-            you to comment on live TV moments with other people as they
-            happen, with a short caption and an attached image/poll/etc. that makes watching TV entertaining and social.
-            Along with commenting, you can also doodle on this attached image, and the comments you do are crossposted
-            to other social media such as
-            Miiverse, Bluesky and Tumblr (if set before)</p>
-        <br>
-        <h1>What can i do with Nintendo TVii?</h1>
+        <img class="logo" src="/img/tvii_logo_big.png">
         <p>
-            Nintendo TVii offers you the option to see your Favorites, TV shows airing live, or releasing new episodes soon on Streaming platforms,
-            Movies also shows you the currently airing movies live, or the popular/trending ones on Streaming platforms, 
-            Sports allows you to see the upcoming Sports games, and see live stats, player positions, and scores with TV Tag,
-            TV Tag allows you see the upcoming and completed programs that supported TV Tag, and you can interact with other people in these taglines, as seen in the previous
-            question.
+            <span class="notblock" data-loc="vino.setup.screen1.p1"></span>
+            <a href="javascript:void(0)" data-hide=".setup-modal-page-1" data-show=".setup-modal-page-about" navi_target
+                data-loc="vino.setup.screen1.a1"></a>
         </p>
+        <p id="normal-zipcode-help" style="display: none;" data-loc="vino.setup.screen1.p2"></p>
+        <p id="normal-zipcode-notsupported" style="display: none;" data-loc="vino.setup.screen1.p4"></p>
+        <form class="zipcode-input">
+            <a href="javascript:void(0)" no_touch navi_target class="mii">
+                <img>
+            </a>
+            <input navi_target navi_no_reset class="accesskey-y zipkey" style="display: none;"
+                data-loc-attr='{"vino_ok_text": "vino.next"}' vino_ok_text="" type="text">
+            <input navi_target navi_no_reset data-loc-attr='{"vino_ok_text": "vino.next"}' class="accesskey-y zipnum"
+                style="display: none;" vino_ok_text="" type="number" maxlength="5">
+            <a navi_target href="javascript:void(0)" class="accesskey-y skip-zip-code" data-show=".setup-modal-page-2"
+                style="display: none;" data-hide=".setup-modal-page-1" data-loc="vino.continue"></a>
+        </form>
+        <p class="disclaimer" data-loc="vino.setup.screen1.p3">
+        </p>
+        <a navi_target href="javascript:void(0)" class="log-in-club-rose" data-loc="vino.setup.screen1.a2"
+            data-url="?page=home"></a>
+    </div>
+
+    <div class="setup-modal setup-modal-page-2 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-1" data-hide=".setup-modal-page-2"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-3" data-hide=".setup-modal-page-2"
+            class="next-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen2.h1"></h1>
+        <h2 data-loc="vino.setup.screen2.h2"></h2>
+        <h3 data-loc="vino.setup.screen2.h3" class="loading-provider" style="display: none;"></h3>
+        <h3 data-loc="vino.setup.screen2.h4" class="loading-provider error" style="display: none;"></h3>
+        <h3 data-loc="vino.setup.screen2.h5" class="loading-provider invalid" style="display: none;"></h3>
+
+        <div class="provider-type-container">
+            <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="cab">
+                <span data-loc="vino.setup.screen2.types.cable"></span>
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="sat">
+                <span data-loc="vino.setup.screen2.types.satellite"></span>
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab" data-type="ant">
+                <span data-loc="vino.setup.screen2.types.antenna"></span>
+            </a>
+        </div>
+
+        <div class="container provider-container l-stick-scroll"></div>
+        <p class="notice fadein" style="display: none;"><span class="notblock provider-chamount"></span><br>
+            <span class="provider-chpreview"></span>
         </p>
     </div>
-</div>
 
-<div class="bsky-login-container">
-    <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
-    </a>
-    <div class="bsky-login">
-        <form class="none">
-            <p data-loc="vino.setup.bsky.title1"></p>
-            <input navi_target type="text" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.bsky.user"}' placeholder="" vino_ok_text="" class="username">
-            <input navi_target type="password" data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.bsky.pass"}' placeholder="" vino_ok_text="" class="pass">
-            <a href="javascript:void(0)" navi_target data-loc="vino.setup.bsky.submit1" class="submit disabled"></a>
-        </form>
-        <div class="logged none">
-            <p data-loc="vino.setup.bsky.title2"></p>
-            <span class="username"></span>
-            <span></span>
-            <a href="javascript:void(0)" navi_target data-loc="vino.setup.bsky.submit2" class="submit">Log Out</a>
+    <div class="setup-modal setup-modal-page-3 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-2" data-hide=".setup-modal-page-3"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-4" data-hide=".setup-modal-page-3"
+            class="next-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen3.h1"></h1>
+        <h2 data-loc="vino.setup.screen3.h2"></h2>
+
+        <div class="container program-container favorites-tv-container l-stick-scroll"></div>
+    </div>
+
+    <div class="setup-modal setup-modal-page-4 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-3" data-hide=".setup-modal-page-4"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-5" data-hide=".setup-modal-page-4"
+            class="next-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen4.h1"></h1>
+        <h2 data-loc="vino.setup.screen4.h2"></h2>
+
+        <div class="container movie-container favorites-movie-container l-stick-scroll"></div>
+    </div>
+
+    <div class="setup-modal setup-modal-page-5 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-4" data-hide=".setup-modal-page-5"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-6" data-hide=".setup-modal-page-5"
+            class="next-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen5.h1"></h1>
+        <h2 data-loc="vino.setup.screen5.h2" class="long"></h2>
+
+        <div class="container streaming-container l-stick-scroll">
+            <a navi_target href="javascript:void(0)" class="provider selected" id="amazon">
+                <img src="/img/amazon-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="netflix">
+                <img src="/img/netflix-log.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="hulu">
+                <img src="/img/hulu-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="apple-tv">
+                <img src="/img/apple-tv-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="disney-plus">
+                <img src="/img/disneyplus-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="paramount-plus">
+                <img src="/img/paramount-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="peacock">
+                <img src="/img/peacock-logo.png">
+                <span class="checked-border"></span>
+            </a>
+            <a navi_target href="javascript:void(0)" class="provider selected" id="crunchyroll">
+                <img src="/img/crunchyroll-logo.png">
+                <span class="checked-border"></span>
+            </a>
         </div>
     </div>
-</div>
 
-<div class="tumblr-login-container">
-    <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
-    </a>
-    <div class="tumblr-login">
-        <img src="/img/tumblr-logo-big.png">
-        <form class="none">
-            <span data-loc="vino.setup.tumblr.title1"></span>
-            <p data-loc="vino.setup.tumblr.title2"></p>
-            <div class="code"></div>
-        </form>
-        <div class="logged none">
-            <span data-loc="vino.setup.tumblr.title3"></span>
-            <span class="username"></span>
-            <a href="javascript:void(0)" navi_target data-loc="vino.setup.tumblr.submit1" class="submit"></a>
+    <div class="setup-modal setup-modal-page-6 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-5" data-hide=".setup-modal-page-6"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-7" data-hide=".setup-modal-page-6"
+            class="next-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen6.h1"></h1>
+        <h2 data-loc="vino.setup.screen6.h2"></h2>
+
+        <h3 data-loc="vino.setup.screen6.h3" class="chfav ch-provider-unsupported" style="display: none;"></h3>
+        <h3 data-loc="vino.setup.screen6.h4" class="chfav ch-provider-providernotsetup" style="display: none;"></h3>
+        <h3 data-loc="vino.setup.screen6.h5" class="chfav ch-provider-zipcodenotsetup" style="display: none;"></h3>
+
+        <div class="dropdown-tab-container tv-channel-type">
+            <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab search-channel search-number">
+                <span data-loc="vino.setup.screen6.search.number"></span>
+                <input type="number" maxlength="4" data-loc-attr='{"vino_ok_text": "vino.search"}' vino_ok_text="">
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="black-tab search-channel search-callsign">
+                <span data-loc="vino.setup.screen6.search.cs"></span>
+                <input type="text" maxlength="10" data-loc-attr='{"vino_ok_text": "vino.search"}' vino_ok_text="">
+            </a>
+        </div>
+
+        <div class="container fav-tv-channels l-stick-scroll">
+
         </div>
     </div>
-</div>
 
-<div class="twttr-login-container">
-    <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
-    </a>
-    <div class="twttr-login">
-        <img src="/img/twitter-logo-2.png">
-        <form class="none">
-            <span data-loc="vino.setup.twttr.title1"></span>
-            <p data-loc="vino.setup.twttr.title2"></p>
-            <div class="code"></div>
-        </form>
-        <div class="logged none">
-            <span data-loc="vino.setup.twttr.title3"></span>
-            <span class="username"></span>
-            <a href="javascript:void(0)" data-loc="vino.setup.twttr.submit1" navi_target class="submit"></a>
+    <div class="setup-modal setup-modal-page-7 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-6" data-hide=".setup-modal-page-7"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target class="next-button home-btn" data-show=".setup-modal-page-8"
+            data-hide=".setup-modal-page-7">
+        </a>
+
+        <h1 data-loc="vino.setup.screen7.h1"></h1>
+        <h2 class="long" data-loc="vino.setup.screen7.h2"></h2>
+
+        <h2 class="long short-bottom" data-loc="vino.setup.screen7.h3"></h2>
+
+        <div class="container social-media-container">
+            <a href="javascript:void(0)" navi_target navi_no_reset class="miiverse-button">
+                <span class="checked-border"></span>
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="twtt-button">
+                <span class="checked-border"></span>
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="tumblr-button">
+                <span class="checked-border"></span>
+            </a>
+            <a href="javascript:void(0)" navi_target navi_no_reset class="bsky-button">
+                <span class="checked-border"></span>
+            </a>
         </div>
     </div>
-</div>
 
-<div class="setup-statusbar">
-    <span></span>
-</div>
+    <div class="setup-modal setup-modal-page-8 none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-7" data-hide=".setup-modal-page-8"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <a href="javascript:void(0)" navi_target class="next-button home-btn" data-create-account-confirmation>
+        </a>
+        <h1 data-loc="vino.setup.screen8.h1"></h1>
+        <h2 data-loc="vino.setup.screen8.h2" class="long"></h2>
+
+        <h2 class="long short-bottom" data-loc="vino.setup.screen8.h3"></h2>
+
+        <div class="password-container">
+            <input navi_target type="email"
+                data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.screen8.place1"}' class="email"
+                vino_ok_text="" placeholder="" maxlength="280">
+            <input navi_target type="password"
+                data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.screen8.place2"}' class="pass"
+                vino_ok_text="" placeholder="" maxlength="20">
+            <input navi_target type="password"
+                data-loc-attr='{"vino_ok_text": "vino.confirm", "placeholder": "vino.setup.screen8.place3"}'
+                class="passC" vino_ok_text="" placeholder="" maxlength="20">
+            <span class="inc"></span>
+        </div>
+    </div>
+
+    <div class="setup-modal setup-modal-page-pc none">
+        <a href="javascript:void(0)" navi_target class="exit-button home-btn">
+        </a>
+        <h1 data-loc="vino.setup.screen.pc.h1"></h1>
+        <h2 class="long" data-loc="vino.setup.screen.pc.h2"></h2>
+        <a href="javascript:void(0)" navi_target class="pin-input"></a>
+    </div>
+
+    <div class="setup-modal setup-modal-page-about zipcode-info none">
+        <a href="javascript:void(0)" navi_target data-show=".setup-modal-page-1" data-hide=".setup-modal-page-about"
+            class="back-button accesskey-b home-btn">
+        </a>
+        <div class="about-text l-stick-scroll">
+            <h1>What is Nintendo TVii?</h1>
+            <p>Nintendo TVii is an platform that allows you to find and search for TV shows, movies and actors in
+                Streaming
+                platforms and Live TV.
+                Along with that, it also offers a diverse variety of social features, such as TV Tag.
+            </p>
+            <br>
+            <h1>What is TV Tag?</h1>
+            <p> While you are watching a new episode of a live TV show, the <b>TV Tag</b> feature (if supported) will
+                allow
+                you to comment on live TV moments with other people as they
+                happen, with a short caption and an attached image/poll/etc. that makes watching TV entertaining and
+                social.
+                Along with commenting, you can also doodle on this attached image, and the comments you do are
+                crossposted
+                to other social media such as
+                Miiverse, Bluesky and Tumblr (if set before)</p>
+            <br>
+            <h1>What can i do with Nintendo TVii?</h1>
+            <p>
+                Nintendo TVii offers you the option to see your Favorites, TV shows airing live, or releasing new
+                episodes soon on Streaming platforms,
+                Movies also shows you the currently airing movies live, or the popular/trending ones on Streaming
+                platforms,
+                Sports allows you to see the upcoming Sports games, and see live stats, player positions, and scores
+                with TV Tag,
+                TV Tag allows you see the upcoming and completed programs that supported TV Tag, and you can interact
+                with other people in these taglines, as seen in the previous
+                question.
+            </p>
+            </p>
+        </div>
+    </div>
+
+    <div class="bsky-login-container">
+        <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
+        </a>
+        <div class="bsky-login">
+            <form class="none">
+                <p data-loc="vino.setup.bsky.title1"></p>
+                <input navi_target type="text"
+                    data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.bsky.user"}' placeholder=""
+                    vino_ok_text="" class="username">
+                <input navi_target type="password"
+                    data-loc-attr='{"vino_ok_text": "vino.enter", "placeholder": "vino.setup.bsky.pass"}' placeholder=""
+                    vino_ok_text="" class="pass">
+                <a href="javascript:void(0)" navi_target data-loc="vino.setup.bsky.submit1" class="submit disabled"></a>
+            </form>
+            <div class="logged none">
+                <p data-loc="vino.setup.bsky.title2"></p>
+                <span class="username"></span>
+                <span></span>
+                <a href="javascript:void(0)" navi_target data-loc="vino.setup.bsky.submit2" class="submit">Log Out</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tumblr-login-container">
+        <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
+        </a>
+        <div class="tumblr-login">
+            <img src="/img/tumblr-logo-big.png">
+            <form class="none">
+                <span data-loc="vino.setup.tumblr.title1"></span>
+                <p data-loc="vino.setup.tumblr.title2"></p>
+                <div class="code"></div>
+            </form>
+            <div class="logged none">
+                <span data-loc="vino.setup.tumblr.title3"></span>
+                <span class="username"></span>
+                <a href="javascript:void(0)" navi_target data-loc="vino.setup.tumblr.submit1" class="submit"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="twttr-login-container">
+        <a href="javascript:void(0)" navi_target class="exit-modal accesskey-b home-btn">
+        </a>
+        <div class="twttr-login">
+            <img src="/img/twitter-logo-2.png">
+            <form class="none">
+                <span data-loc="vino.setup.twttr.title1"></span>
+                <p data-loc="vino.setup.twttr.title2"></p>
+                <div class="code"></div>
+            </form>
+            <div class="logged none">
+                <span data-loc="vino.setup.twttr.title3"></span>
+                <span class="username"></span>
+                <a href="javascript:void(0)" data-loc="vino.setup.twttr.submit1" navi_target class="submit"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="setup-statusbar">
+        <span></span>
+    </div>
+</main>

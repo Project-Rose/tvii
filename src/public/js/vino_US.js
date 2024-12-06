@@ -541,6 +541,10 @@ var tvii = tvii || {
             {
                 template_query: "movies",
                 template_file: "movies.html"
+            },
+            {
+                template_query: "manual",
+                template_file: "manual.html"
             }
         ],
         requestAll: function () {
