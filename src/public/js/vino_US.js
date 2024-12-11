@@ -541,6 +541,10 @@ var tvii = tvii || {
             {
                 template_query: "movies",
                 template_file: "movies.html"
+            },
+            {
+                template_query: "manual",
+                template_file: "manual.html"
             }
         ],
         requestAll: function () {
@@ -1656,6 +1660,38 @@ $(document).on("tvii:pagechange", function () {
 $(window).on("popstate", function () {
     tvii.utils.changePage(location.search, true);
 });
+
+tvii.router.connect("^[?&]page=manual(?:&|$)", function () {
+    function changeScreen(hide, show, id) {
+        $(hide).addClass("none");
+        $(show).removeClass("none");
+        $(document).trigger("modalchange:manual", [$(show)]);
+        
+        history.pushState(null, "", location.search + "&manual=" + id);
+    };
+
+    $("[data-show]").on("click", function () {     
+        changeScreen($(this).attr("data-hide"), $(this).attr("data-show"), $(this).attr("data-id"));
+    });
+
+    $(".manual-back").on("click", function () {
+        vino.soundPlay("SE_A_CLOSE_TOUCH_OFF");
+        history.back();
+    });
+
+    $("body").addClass("manualBody");
+
+    $(".manual-exit").on("click", function () {
+        $("body").removeClass("manualBody");
+    });
+
+    var manualScroll = new tvii.utils.ScrollingContainer($(".manual-container"), false);
+
+    manualScroll.scrCont.on("scrolling", function (e, data) {
+        manStr = data.scrollY;
+    });
+});
+
 
 tvii.router.connect("^[?&]page=setup(?:&|$)", function () {
 
