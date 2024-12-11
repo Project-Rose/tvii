@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryColumn } from "typeorm";
-import { ManyToOne } from "typeorm/browser";
+import { ManyToOne } from "typeorm";
 import { MSO } from "./mso.js";
-import { JoinColumn } from "typeorm/browser";
+import { JoinColumn } from "typeorm";
 
 @Entity()
 export class Lineup {
@@ -16,5 +16,5 @@ export class Lineup {
 
     @ManyToOne(() => MSO)
     @JoinColumn({ name: "mso_id" })
-    mso: MSO
+    mso: MSO;
 }
